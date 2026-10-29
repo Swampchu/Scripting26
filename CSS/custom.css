@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+header, nav, section, footer{ 
+    font-family: "Oswald", sans-serif;
+}
+
+p{
+    font-family: "Roboto", sans-serif;
+    padding: 30px;
+}
+
+header{
+    background-image: url(../Images/Image-1\ copy.png);
+    min-height: 60vh;
+    background-size: cover;
+    background-position: center;
+}
+
+body{
+    background-color: rgb(188, 102, 102);
+}
+
+footer{
+    padding-bottom: 100px;
+    font-size: 20px;
+}
+
+
+
+.bg-tan{
+    background-color: bisque;
+}
+
+.bg-red{
+    background-color: rgb(188, 102, 102);
+}
+
+#Bio{
+min-height: 5vh;
+background-size: cover;
+background-position: bottom;
+text-align: center;
+}
+
+#Bio2{
+background-color: rgb(94, 66, 66);
+min-height: 30vh;
+background-size: cover;
+background-position: bottom;
+}
+
+#Works{
+    
+min-height: 5vh;
+background-size: cover;
+background-position: bottom;
+}
+
+#Works2{
+    background-color: rgb(94, 66, 66);
+    min-height: 40vh;
+}
+
+#Works3{
+    background-color: rgb(94, 66, 66);
+}
+
+nav{
+    position: sticky;
+    top: 0px;
+}
+
+nav ul{
+    background-color:bisque;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+text-decoration: dotted;
+}
+
+nav ul li a:hover{
+    color: rgb(188, 102, 102);
+}
+
+.drop-shadow{
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+box-shadow: 5px 5px 15px 5px #000000;
+}
