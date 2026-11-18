@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+p{
+    font-family: "Roboto", sans-serif;
+}
+
+h1, h2, nav{
+    font-family: "Playfair Display", serif;
+}
+
+:root{
+    --bs-primary-rgb:9, 9, 139; 
+
+    --bs-danger-rgb:131, 21, 21;
+}
+
+header{
+    height: 75vh;
+    background-image: url(../Images_True/Header_About.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    background-color: rgb(131, 21, 21);
+}
+
+body{
+    background-color: beige;
+}
+
+section{
+    padding-bottom: 30px;
+}
